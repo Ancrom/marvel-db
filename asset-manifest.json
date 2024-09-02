@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/marvel-db/static/css/main.b28dc1a3.css",
+    "main.js": "/marvel-db/static/js/main.aa61b142.js",
+    "static/media/Characters-bg.png": "/marvel-db/static/media/Characters-bg.ffe724ac44bdd47eb205.png",
+    "static/media/Avengers.png": "/marvel-db/static/media/Avengers.1275ab5cd28a088f7c3e.png",
+    "static/media/Avengers-logo.png": "/marvel-db/static/media/Avengers-logo.78d326920f08bf6eaea0.png",
+    "static/media/Decoration.png": "/marvel-db/static/media/Decoration.b5766f69c931431dd8a2.png",
+    "static/media/spinner.svg": "/marvel-db/static/media/spinner.d7bd1d84ccbdd8cbf05b8bdb4b58e11d.svg",
+    "index.html": "/marvel-db/index.html",
+    "main.b28dc1a3.css.map": "/marvel-db/static/css/main.b28dc1a3.css.map",
+    "main.aa61b142.js.map": "/marvel-db/static/js/main.aa61b142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b28dc1a3.css",
+    "static/js/main.aa61b142.js"
+  ]
+}
