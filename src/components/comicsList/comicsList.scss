@@ -1,0 +1,18 @@
+.comics-list {
+	margin: clamp(20px, 3vw, 50px) 0;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+		gap: clamp(20px, 4vw, 55px) clamp(20px, 4vw, 65px);
+		justify-content: space-between;
+	}
+	&__button {
+		display: block;
+		margin: 45px auto 0;
+	}
+	@media (max-width: 1100px) {
+		&__wrapper {
+			justify-content: center;
+		}
+	}
+}

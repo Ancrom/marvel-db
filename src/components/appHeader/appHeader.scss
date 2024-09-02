@@ -1,0 +1,25 @@
+.app-header {
+	padding: clamp(20px, 3vw, 50px) 0;
+	font-size: 28px;
+	font-weight: var(--font-weight-bold);
+	color: var(--text-color-main);
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		gap: 15px;
+	}
+}
+
+.logo {
+	font-size: clamp(18px, 3vw, 28px);
+	color: var(--text-color-modifier);
+	&__text {
+		color: var(--text-color-main);
+	}
+	@media (max-width: 768px) {
+		&__text {
+			display: none;
+		}
+	}
+}

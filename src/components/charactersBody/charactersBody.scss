@@ -1,0 +1,16 @@
+.characters-body {
+	margin: clamp(20px, 3vw, 50px) 0 0 0;
+	min-height: 400px;
+	background: 100% 100% / 467px no-repeat url(./../../resources/img/charactersBody/Characters-bg.png);
+	&__container {
+		display: grid;
+		grid-template-columns: minmax(auto, 1fr) minmax(150px, 425px);
+		gap: clamp(20px, 2vw, 25px);
+	}
+	@media (max-width: 768px) {
+		background: none;
+		&__container {
+			grid-template-columns: 1fr;
+		}
+	}
+}

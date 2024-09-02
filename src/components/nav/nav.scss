@@ -1,0 +1,13 @@
+.nav {
+	font-size: var(--font-size-large);
+	color: var(--text-color-main);
+	&__list {
+		display: flex;
+	}
+	.active {
+		color: var(--text-color-modifier);
+	}
+	@media (max-width: 768px) {
+		font-size: 18px;
+	}
+}

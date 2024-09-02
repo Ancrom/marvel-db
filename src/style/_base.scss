@@ -1,0 +1,29 @@
+/* =============== BASE =============== */
+
+// Base
+
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--text-color-main);
+	line-height: var(--line-height-main);
+}
+
+// Container
+
+
+
+// Utility
+
+.dnone {
+	display: none !important;
+}
+
+.visually-hidden {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+	width: 0;
+	height: 0;
+}
